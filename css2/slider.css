@@ -1,0 +1,142 @@
+.car {
+  display: flex;
+}
+
+.car {
+  margin-bottom: 60px;
+}
+
+.car-slider {
+  max-width: 500px;
+  max-height: 292px;
+  margin-right: 90px;
+  display: flex;
+}
+
+.slider-nav {
+  max-width: 93px;
+  max-height: 292px;
+}
+
+.slider-nav__item {
+  height: 54px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slider-nav__item:not(:last-child) {}
+
+.slider-nav__item img {
+  min-width: 100%;
+  max-height: 100%;
+  border-radius: 8px 8px 0px 0px;
+
+}
+
+.swiper-slide {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider-block {
+  width: 500px;
+  max-height: 292px;
+  margin-right: 5px;
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+}
+
+/* car-info */
+.car-info {}
+
+.car-price-head {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.car-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #282828;
+  margin-right: 14px;
+
+}
+
+.car-price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #282828;
+}
+
+.car-info-block {
+  display: flex;
+  align-items: center;
+}
+
+.info-left-block {
+  margin-right: 32px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-descr {
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.info-descr-span {
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  white-space: nowrap;
+}
+
+@media(max-width: 1100px) {
+  .car-info-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .info-left-block {
+    margin-bottom: 10px;
+  }
+
+  .info-right-block {
+    margin-left: 18px;
+  }
+
+}
+
+.modal-open {
+  padding: 5px 20px;
+  border-radius: 3px;
+  max-width: 100%;
+  text-align: center;
+
+}
